@@ -6,10 +6,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  groceries[:dairy]
-    groceries.each do |key, value|
-      value.each do |attribute, pair|
-        value.values = [ ]
+  groceries.values.flatten
 
   
 
