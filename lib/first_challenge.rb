@@ -14,7 +14,9 @@ def first_challenge
   }
 
   contacts["Freddy Mercury"][:favorite_icecream_flavors]
-  contacts.each do ||
+  contacts.each do |person, data|
+    data.each do |attribute, value|
+      
 
   
   contacts
